@@ -1,0 +1,98 @@
+header {
+    background-color: #111;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.3rem;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    left: 0;
+    z-index: 2;
+    max-height: 50px;
+}
+
+h1 {
+    padding-left: 1rem;
+    font-weight: 900;
+}
+
+span {
+    color: #9982ff;
+}
+
+.cartLength {
+    position: absolute;
+    font-size: .8rem;
+    color: #fff;
+    background-color: #9982ff;
+    width: 35px;
+    border-radius: 10px;
+    top: -.2rem;
+    right: -.9rem;
+}
+
+.searchContainer {
+    background-color: #fff;
+    border-radius: 20px;
+    width: 25rem;
+    height: 3rem;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10rem;
+}
+ 
+.headerInput{
+    height: 2rem;
+    width: 20rem;
+    padding-left: 20px;
+    border: none;
+    border: 20px;
+}
+
+.searchBtn {
+    color: #fff;
+    background-color: #111;
+    border: none;
+    cursor: pointer;
+    width: 3rem;
+    height: 2rem;
+    border-radius: 20px;
+}
+
+.cartBtn {
+    width: 2rem;
+    padding-right: 1rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 5rem;
+    position: relative;
+    top: 1.3rem;
+}
+
+.bi-cart {
+    font-size: 2rem;
+    padding-right: 1rem;
+    color: #9982ff;
+    transition: ease 0.1s;
+}
+
+.bi-cart:hover {
+    font-size: 2.5rem;
+}
+
+@media (max-width: 768px) {
+    .headerInput, .searchBtn, .searchContainer {
+        display: none;
+    }
+}
+
+@media (max-width: 962px) {
+    .searchContainer {
+        margin: 0;
+    }
+}

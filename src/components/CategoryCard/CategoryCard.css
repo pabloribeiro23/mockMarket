@@ -1,0 +1,36 @@
+.categoryCardContainer {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    width: 15rem;
+    height: 10rem;
+    font-size: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: ease 0.1s;
+}
+
+.categoryCardContainer:hover {
+    transform: scale(1.1);
+}
+
+.categoryName {
+    font-weight: 700;
+    color: #9982ff;
+    text-transform: capitalize;
+}
+
+.categoryIcons {
+    color: #222222;
+}
+
+@media (max-width: 768px) {
+    .categoryCardContainer{
+        width: 8rem;
+        height: 8rem;
+        font-size: 1.2rem;
+    }
+}

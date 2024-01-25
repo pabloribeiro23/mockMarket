@@ -1,0 +1,22 @@
+.heroSection {
+    background-image: url('https://segwitz.com/wp-content/uploads/2021/09/why-ecommerce-need-mobile-apps.jpg');
+    min-height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    position: relative;
+    margin-top: 5rem;
+}
+
+@media (max-width: 768px) {
+    .heroSection {
+        padding-top: 5rem;
+        gap: 1rem;
+    }
+}
+
